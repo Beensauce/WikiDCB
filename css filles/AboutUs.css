@@ -1,0 +1,87 @@
+@import url("Main.css");
+
+.aboutus{
+    background-color: var(--color-black);
+    margin: 1% 1.25rem; 
+    height: calc(100vh - 10rem);
+    text-align: center;
+    color: var(--color-white);
+}
+.aboutus h1 {
+    padding-top: 3rem;
+}
+.aboutus p{
+    padding-top: 2.5rem;
+    font-size: 1.25rem;
+}
+.images {
+    padding-top:3rem;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.images li, .names li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.images li img {
+    height: auto;
+    width: 175px;
+    border: 0.25rem solid var(--color-white);
+    border-radius: 50%;
+}
+.names{
+    padding: 0 2%;
+    display: flex; 
+    justify-content: center;
+    gap: 8%;
+    margin-top: 2rem;
+}
+.names li p{
+    font-size: 1.8rem;
+}
+
+/* Increase gap between third, fourth, and fifth names */
+.names li:nth-child(3){
+    margin-left:1%;
+}
+.names li:nth-child(4) {
+    position:relative;
+    left: 1.5%; /* Adjust this value as needed */
+}
+
+@media (max-width: 735px) {
+    .content{
+        display: flex;
+        
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+    .images li img{
+        height:auto;
+        width:125px
+    }
+
+    .names{
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-start; 
+        gap:100px;
+    }
+    .name li p{
+        font-size:5px;
+    }
+    .aboutus{
+        background-color: var(--color-black);
+        height: 100%;
+        text-align: center;
+        color: var(--color-white);
+    }
+}
+

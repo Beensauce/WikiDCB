@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="/css filles/ContactUs.css">
+  </head>
+<body>
+  <div class="menu_bar">
+    <a class="title" href="index.html"><h1 class="head">Wiki <span class="DCB">DCB</span></h1></a>
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><img src="./images/x.png" alt="Cross"></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li><a href="">Subjects &#x25BC</a>
+          <ul class="dropdown">
+            <li><a href="category.html?category=Maths">Maths</a></li>
+            <li><a href="category.html?category=Physics">Physics</a></li>
+            <li><a href="category.html?category=Chemistry">Chemistry</a></li>
+            <li><a href="category.html?category=Biology">Biology</a></li>
+            <li><a href="category.html?category=Computer%20Science">Computer Science</a></li>
+          </ul>
+        </li>
+    </ul>
+
+    <ul>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="AboutUs.html">About</a></li>
+        <li class="hideOnMobile"><a href="ContactUs.html    ">Subjects &#x25BC</a>
+          <ul class="dropdown">
+            <li><a href="category.html?category=Maths">Maths</a></li>
+            <li><a href="category.html?category=Physics">Physics</a></li>
+            <li><a href="category.html?category=Chemistry">Chemistry</a></li>
+            <li><a href="category.html?category=Biology">Biology</a></li>
+            <li><a href="category.html?category=Computer%20Science">Computer Science</a></li>
+          </ul>
+        </li>
+        <li class="hideOnMobile"><a href="ContactUs.html">Contact Us</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><img src="/images/Menu bar.png" alt="Menu"></a></li>
+    </ul>
+</div>
+  </div>
+  <div class="contactUs">
+    <h1>Contact us</h1>
+    <p>Feel free to contact us if you have any questions :D. Either one of us is cool</p>
+    
+    <div class="content">
+      <ul class="images">
+        <li><a href = "mailto: john.park26@stu.dulwich.org">john.park26@stu.dulwich.org</a></li>
+        <li><a href = "mailto: sean.park26@stu.dulwich.org">sean.park26@stu.dulwich.org</a></li>
+        <li><a href = "mailto: taylor.lam26@stu.dulwich.org">taylor.lam26@stu.dulwich.org</a></li>
+        <li><a href = "mailto: yeonwoo.kim26@stu.dulwich.org">yeonwoo.kim26@stu.dulwich.org</a></li>
+        <li><a href = "mailto: mix.zhu26@stu.dulwich.org">mix.zhu26@stu.dulwich.org</a></li>
+      </ul>
+      <img src = "/images/Gigachad.webp" alt="gigachad" id="image">
+    </div>
+  </div>
+  
+
+  <footer>
+    <p>Website made by Beensauce and chatgpt</p>
+    </footer>
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'  
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script> 
+</body>
+</html>

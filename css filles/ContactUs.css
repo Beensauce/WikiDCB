@@ -1,0 +1,56 @@
+@import url("Main.css");
+
+.contactUs {
+    background-color: var(--color-black);
+    margin: 1% 1.25rem; 
+    height: calc(100vh - 10rem);
+    text-align: center;
+    color: var(--color-white);
+}
+
+.contactUs h1 {
+    padding-top: 3rem;
+}
+.contactUs p{
+    padding-top: 2.5rem;
+}
+.contactUs p, .contactUs a {
+    text-align: center;
+    position: relative;
+    color: var(--color-white);
+    font-size: 1.25rem;
+}
+
+.contactUs ul {
+    text-align: left;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 600px; /* Center the list and limit its width */
+}
+
+.contactUs li {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.contactUs a:hover {
+    background-color: red;
+}
+#image {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    display: block;
+    margin: -150px auto 0 50vw; /* Center the image */
+}
+
+
+@media (max-width: 735px) {
+    #image {
+        position:relative;
+        height: 200px;
+        width: 200px;
+        top:0; /* Slightly adjust placement for smaller screens */
+        margin:auto;
+    }
+}
