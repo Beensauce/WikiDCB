@@ -7,6 +7,13 @@ const articles = {
       image: "./images/Simple.jpg",
       body: "Physics is the study of matter, motion, and the universe. It's a foundational science that has shaped modern technology."
     },
+    "2":{
+      title: "Why do bicycles become more stable when they go faster?",
+      date: "09 Feb, 2025",
+      author: "Yeonwoo Kim",
+      image: "./images/maxersdefault.jpg",
+      body: "Most of you have likely experienced riding a bicycle. As a child learning to ride, you need the courage to pedal faster to help maintain your balance"
+    },
   };
   
   // Function to load article based on query parameter
