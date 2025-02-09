@@ -1,10 +1,10 @@
 const articles = [
     {
-      id: 1,
-      title: "Understanding Algebra",
-      date: "2025-01-02",
-      author: "Alice Smith",
-      summary: "An introduction to the basics of algebra, including variables and equations.",
+      id: 2,
+      title: "Why do bicycles become more stable when they go faster?",
+      date: "2025-02-09",
+      author: "Yeonwoo Kim",
+      summary: "Pretty cool beans if you ask me, ever wonder why?",
     },
     {
       id: 2,
