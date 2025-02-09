@@ -1,6 +1,6 @@
 const articles = [
     {
-      id: 2,
+      id: 1,
       title: "Why do bicycles become more stable when they go faster?",
       date: "2025-02-09",
       author: "Yeonwoo Kim",
