@@ -1,10 +1,10 @@
 const data = {
     "Maths": [
       { id: "1", title: "Understanding Algebra", date: "02 Jan, 2025", author: "Alice Smith", summary:"Cool maths" },
-      { id: "2", title: "Geometry Basics", date: "01 Jan, 2025", author: "Bob Johnson" },
+      { id: "3", title: "Geometry Basics", date: "01 Jan, 2025", author: "Bob Johnson" },
     ],
     "Physics": [
-      { id: "3", title: "Newton's Laws of Motion", date: "03 Jan, 2025", author: "Charlie Brown" },
+      { id: "2", title: "Why do bicycles become more stable when they go faster?", date: "09 Jan, 2025", author: "Yeonwoo Kim" },
       { id: "4", title: "Electromagnetism Explained", date: "02 Jan, 2025", author: "Diana Prince" },
     ],
     "Chemistry": [
